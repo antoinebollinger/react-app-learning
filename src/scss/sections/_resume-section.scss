@@ -1,0 +1,76 @@
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    .resume-section-content {
+        width: 100%;
+    }
+    .resume-section-image {
+        width: 80px;
+        height: 80px;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        &.osborn {
+            background-image: url('#{$assetPath}/osborn.png');
+        }
+        &.duga {
+            background-image: url('#{$assetPath}/duga.jpg');
+        }
+        &.worker {
+            background-image: url('#{$assetPath}/worker.png');
+        }
+        &.mcdo {
+            background-image: url('#{$assetPath}/mcdo.png');
+        }
+        &.oc {
+            background-image: url('#{$assetPath}/oc.png');
+        }
+        &.sorbonne {
+            background-image: url('#{$assetPath}/sorbonne.png');
+        }
+        &.ecp {
+            background-image: url('#{$assetPath}/ecp.png');
+        }
+        &.lycee {
+            background-image: url('#{$assetPath}/lycee.png');
+        }
+    }
+    .skills {
+        > div {
+            border-radius: 1rem;
+            background-color: white;
+            border: 0.5rem solid $gray-200;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .resume-section-image {
+        background-position: top center!important;
+    }
+    .skills {
+        > div {
+            width: 100%!important;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    section.resume-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}

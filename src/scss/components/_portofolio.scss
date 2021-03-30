@@ -1,0 +1,27 @@
+#portofolio {
+    img {
+        visibility: hidden;
+        opacity: 0;
+    }
+    a {
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        transition: all 0.4s;
+        &.traductions {
+            background-image: url('#{$assetPath}/portofolio/antoine-traductions.jpg');
+        }
+        &.groupomania {
+            background-image: url('#{$assetPath}/portofolio/groupomania.jpg');
+        }
+        &.orinoco {
+            background-image: url('#{$assetPath}/portofolio/orinoco.jpg');
+        }
+        &.reservia {
+            background-image: url('#{$assetPath}/portofolio/reservia.jpg');
+        }
+        &:hover {
+            background-size: 110%;
+        }
+    }
+}

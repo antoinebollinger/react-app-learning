@@ -1,19 +1,22 @@
-import logo from '../assets/images/logo.svg';
+import About from '../sections/About';
+import Skills from '../sections/Skills';
+import Portofolio from '../sections/Portofolio';
+import Experience from '../sections/Experience';
+import Education from '../sections/Education';
 
 function Main() {
     return (
-        <main>
-            <h2>Mon main</h2>
-            <img src={logo} className="App-logo" alt="logo" />
-            <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-            Learning React :)
-            </a>
-        </main>
+        <div className="container-fluid p-0">
+            <About />
+            <hr className="m-0" />
+            <Skills />
+            <hr className="m-0" />
+            <Portofolio />
+            <hr className="m-0" />
+            <Experience />
+            <hr className="m-0" />
+            <Education />
+        </div>
     );
 }
 
