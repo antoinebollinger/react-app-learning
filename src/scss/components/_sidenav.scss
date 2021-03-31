@@ -19,7 +19,16 @@
         color: white!important;
     }
     .nav-space {
-        color: rgba(255,255,255,0.5)
+        color: rgba(255,255,255,0.5);
+        cursor: default!important;
+    }
+    .languageSelector {
+        p {
+            cursor: pointer;
+            &.nav-active {
+                cursor: default;
+            }
+        }
     }
 }
 
@@ -50,6 +59,9 @@
             flex-grow: 0;
             width: 100%;
             margin-bottom: auto;
+            > div {
+                width: 100%;
+            }
             .navbar-nav {
                 flex-direction: column;
                 background: radial-gradient(circle, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%); 

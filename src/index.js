@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import './scss/custom.scss';
+import './i18n';
 
 ReactDOM.render(
   <React.StrictMode>

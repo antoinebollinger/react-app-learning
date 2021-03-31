@@ -1,6 +1,11 @@
 import profile from '../assets/img/profile.jpg';
+import ScrollspyNav from "react-scrollspy-nav";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from '../services/languageSelector';
 
-function Nav() {
+const Nav = () => {
+    const { t } = useTranslation(['nav']);
+
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
@@ -9,20 +14,16 @@ function Nav() {
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portofolio">Projects</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li className="nav-item d-flex align-items-center justify-content-md-center">
-                        <p className="nav-link nav-active m-0">En</p>
-                        <p className="m-0 px-2 nav-space"> | </p>
-                        <a className="nav-link" href="../pt/" title="Ver a versão em português">Pt</a>
-                        <p className="m-0 px-2 nav-space"> | </p>
-                        <a className="nav-link" href="../fr/" title="Voir la version en français">Fr</a>
-                    </li>
-                </ul>
+                <ScrollspyNav scrollTargetIds={['about', 'skills', 'portofolio', 'experience', 'education']} activeNavClass="active" scrollDuration="400">
+                    <ul className="navbar-nav">
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">{ t('about') }</a></li>
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">{ t('skills') }</a></li>
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portofolio">{ t('projects') }</a></li>
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">{ t('experience') }</a></li>
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">{ t('education') }</a></li>
+                        <LanguageSelector />
+                    </ul>
+                </ScrollspyNav>
             </div>
         </nav>
     );
