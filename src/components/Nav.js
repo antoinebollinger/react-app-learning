@@ -19,7 +19,7 @@ const Nav = () => {
    
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
-            <p className="navbar-brand m-0" onClick={() => refreshPage()}>
+            <p className="navbar-brand mb-0" onClick={() => refreshPage()}>
                 <span className="d-block d-lg-none subheading">Antoine Bollinger</span>
                 <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={profile} alt="Accueil" /></span>
             </p>
