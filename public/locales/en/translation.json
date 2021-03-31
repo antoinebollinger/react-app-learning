@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "experience": "Experience",
+        "education": "Education"
+    },        
+    "about": {
+        "title": "Web Developer",
+        "intro": "Translation. Creation. Communication. These are the words that I think best define my work. Translating texts, elaborating catalogs, writing codes for website, all this implies translation – of a need, a request or even a desire – and the creation of a result, whatever the format. And all this contributes to communication between people. That is where I am.",
+        "pdf": "Click to download my resume as a PDF file",
+        "pdflink": "CV_EN",
+        "linkedin": "My profile on Linkedin",
+        "github": "My work on GitHub"
+    },
+    "skills": {
+        "title": "Skills",
+        "skill1": "Autonomous, organized, self-made, flexible",
+        "skill2": "Good command of Adobe InDesign & Photoshop, Microsoft Office",
+        "skill3": "English professional | Portuguese bilingual",
+        "languages": "Languages",
+        "environment": "Environment",
+        "databases": "Databases"
+    },
+    "projects": {
+        "title": "Projects", 
+        "project1": "My website as a translator",
+        "project2": "Social network project (Openclassrooms bootcamp)",
+        "project3": "eCommerce website (Openclassrooms bootcamp)",
+        "project4": "Project Turn Mock-up into a website"
+    }
+}

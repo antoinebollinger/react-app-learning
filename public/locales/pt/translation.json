@@ -1,0 +1,33 @@
+{
+    "nav": {
+        "about": "Sobre mim",
+        "skills": "Competências",
+        "projects": "Projetos",
+        "experience": "Experiências",
+        "education": "Educação"
+    },
+    "about": {
+        "title": "Desenvolvedor Web",
+        "intro": "Tradução. Criação. Comunicação. Eis os termos que, eu acho, melhor definem o meu trabalho. Seja tradução de textos, elaboração de catálogos, redação do código de um website, tudo isso implica a tradução – de uma necessidade, um pedido ou até um desejo – e a criação de um resultado, tanto faz o formato. Et tudo isso participa da comunicação entre as pessoas. É aqui que eu estou.",
+        "pdf": "Clique para baixar o meu currículo em PDF",
+        "pdflink": "CV_EN",
+        "linkedin": "Meu perfil no Linkedin",
+        "github": "Meu trabalho no GitHub"
+    },
+    "skills": {
+        "title": "Competências",
+        "skill1": "Autônomo, organizado, autodidata, flexível",
+        "skill2": "Bons conhecimentos d'Adobe InDesign & Photoshop, et de Microsoft Office",
+        "skill3": "Inglês profissional | Português bilingue",
+        "languages": "Linguagens",
+        "environment": "Ferramentas",
+        "databases": "Bases de dados"
+    },
+    "projects": {
+        "title": "Projetos", 
+        "project1": "Meu site apresentando o meu trabalho de tradutor",
+        "project2": "Projeto de rede social no contexto da minha formação Openclassrooms",
+        "project3": "Projeto de site eCommerce (formação Openclassrooms)",
+        "project4": "Projeto Tornar um Mock-up em website"
+    }
+}

@@ -10,33 +10,34 @@ import Postman from '../assets/img/postman.png';
 import Wamp from '../assets/img/wamp.png';
 import Gitbash from '../assets/img/gitbash.png';
 
-function Skills() {
+import { useTranslation } from "react-i18next";
+
+const Skills = () => {
+    const { t } = useTranslation([]);
     return (
         <section className="resume-section" id="skills">
             <div className="resume-section-content">
-                <h2 className="mb-5">Skills</h2>
+                <h2 className="mb-5">{ t('skills.title') }</h2>
                 <ul className="fa-ul mb-5">
                     <li>
                         <span className="fa-li"><i className="fas fa-check"></i></span>
-                        <span className="font-weight-bold">Autonomous, organized, self-made, flexible</span>
+                        <span className="font-weight-bold">{ t('skills.skill1') }</span>
                     </li>
                     <li>
-                        <span className="fa-li"><i className="fas fa-check"></i></span>
-                        Good command of Adobe <span className="font-weight-bold">InDesign</span> \& <span className="font-weight-bold">Photoshop</span>, Microsoft <span className="font-weight-bold">Office</span>
+                        <span className="fa-li"><i className="fas fa-check"></i></span>{ t('skills.skill2') }
                     </li>
                     <li>
-                        <span className="fa-li"><i className="fas fa-check"></i></span>
-                        <span className="font-weight-bold">English</span> professional | <span className="font-weight-bold">Portuguese</span> bilingual
+                        <span className="fa-li"><i className="fas fa-check"></i></span>{ t('skills.skill3') }
                     </li>
                 </ul>    
                 <div className="d-flex flex-row align-items-center mb-5">
-                    <div className="subheading mr-3">Languages : </div>
+                    <div className="subheading mr-3">{ t('skills.languages') } : </div>
                     <div className="dev-icons mr-3"><img src={Php} className="rounded" alt="PHP" /></div>
                     <div className="dev-icons mr-3"><img src={Js} className="rounded" alt="JS" /></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row align-items-center align-items-md-stretch justify-content-around skills mb-5">
                     <div className="w-25 p-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
-                        <p className="subheading">Databases</p>
+                        <p className="subheading">{ t('skills.databases') }</p>
                         <div className="flex-grow-1 d-flex flex-column align-items-center justify-content-around">
                             <img src={Mysql} className="w-75" alt="MySQL" />
                             <img src={MongoDB} className="w-75" alt="MongoDB" />
@@ -62,7 +63,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="d-flex flex-column flex-md-row flex-wrap align-items-md-center">
-                    <div className="subheading mr-3">Environment : </div>
+                    <div className="subheading mr-3">{ t('skills.environment') } : </div>
                     <div className="dev-icons mr-3"><p className="font-weight-bold mb-md-0"><img src={Windows} className="mr-2" alt="Windows" />Windows</p></div>
                     <div className="dev-icons mr-3"><p className="font-weight-bold mb-md-0"><img src={VCS} className="rounded mr-2" alt="Visual Code Studio" />Visual Code Studio</p></div>
                     <div className="dev-icons mr-3"><p className="font-weight-bold mb-md-0"><img src={Postman} className="rounded mr-2" alt="Postman" />Postman</p></div>

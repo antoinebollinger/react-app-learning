@@ -30,6 +30,9 @@
             }
         }
     }
+    .poweredBy {
+        display: none!important;
+    }
 }
 
 @include media-breakpoint-up(lg) {
@@ -47,6 +50,7 @@
             display: flex;
             margin: auto auto 0;
             padding: 0.5rem;
+            cursor: pointer;
             .img-profile {
                 max-width: 10rem;
                 max-height: 10rem;
@@ -74,5 +78,21 @@
                 }
             }
         }
+        .poweredBy {
+            display: flex!important;
+        }
+        .App-logo {
+            height: 2em;
+            animation: App-logo-spin infinite 20s linear;
+        }
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }

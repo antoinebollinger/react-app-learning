@@ -10,11 +10,12 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    // lng: 'en' // <--- turn off for detection to work
     whitelist: ['en', 'pt', 'fr'],
     nonExplicitWhitelist: true,
     load: 'languageOnly',
     fallbackLng: "en",
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false
     },
