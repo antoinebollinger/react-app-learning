@@ -1,6 +1,5 @@
 import CV_EN from '../assets/pdf/CV_EN.pdf';
 import CV_FR from '../assets/pdf/CV_FR.pdf';
-
 import { withTranslation } from "react-i18next";
 
 const About = ({ t }) => {

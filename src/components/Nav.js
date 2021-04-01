@@ -2,7 +2,6 @@ import profile from '../assets/img/profile.jpg';
 import ReactLogo from '../assets/img/react.png';
 import ScrollspyNav from "react-scrollspy-nav";
 import LanguageSelector from '../services/languageSelector';
-
 import { withTranslation } from "react-i18next";
 import { useState } from "react";
 

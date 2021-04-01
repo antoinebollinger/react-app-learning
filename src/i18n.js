@@ -5,12 +5,9 @@ import { initReactI18next } from "react-i18next";
 
 i18n
   .use(Backend)
-  // detect user language
-  // learn more: https://github.com/i18next/i18next-browser-languageDetector
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    // lng: 'en' // <--- turn off for detection to work
     whitelist: ['en', 'pt', 'fr'],
     nonExplicitWhitelist: true,
     load: 'languageOnly',
@@ -18,9 +15,6 @@ i18n
     debug: false,
     interpolation: {
       escapeValue: false
-    },
-    react: {
-      useSuspense: false
     }
   }).then(function(t) {
     document.documentElement.lang = i18n.language;

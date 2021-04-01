@@ -1,4 +1,3 @@
-//import TempExperience from '../services/tempExperience';
 import { withTranslation  } from "react-i18next";
 
 const Experience = ({ t }) => {
