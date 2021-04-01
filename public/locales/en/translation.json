@@ -29,5 +29,42 @@
         "project2": "Social network project (Openclassrooms bootcamp)",
         "project3": "eCommerce website (Openclassrooms bootcamp)",
         "project4": "Project Turn Mock-up into a website"
+    },
+    "experience": {
+        "title": "Experience",
+        "experiences": [
+            {
+                "title": "Developer | Marketing Assistant",
+                "class": "osborn",
+                "company": "Osborn Unipol SAS | Industry",
+                "date": "February 2017 - Today",
+                "description": "Creation and management of product databases (MySQL). Creation of a CRM website. Operational marketing: mailing campaign, creation of brochures & catalogs.",
+                "learned": "What I've learned : Indesign, VBA, PHP + MySQL + JQuery."
+            },
+            {
+                "title": "Reservations agent",
+                "class": "duga",
+                "company": "Duga Paris | Turism",
+                "date": "September 2010 - May 2016",
+                "description": "Processing of customer requests, animation of a network of professional customers.",
+                "learned": "What I've learned : Business Management, logistic, marketing, Html + CSS (website building)."
+            },
+            {
+                "title": "Translator Portuguese | French",
+                "class": "worker",
+                "company": "Self-employed",
+                "date": "May 2010 - Today",
+                "description": "Translation of academic (doctoral theses, scientific articles and works) and legal (contracts) documents.",
+                "learned": "What I've learned : Administrative and accounting management, Html + CSS (website building)."
+            },
+            {
+                "title": "Crew Member",
+                "class": "mcdo",
+                "company": "McDonlads France | Restoration",
+                "date": "March 2007 - September 2010",
+                "description": "Preparation & sales of products, cleanliness & hygiene of the restaurant.",
+                "learned": "What I've learned : Rigor, speed, teamwork, customer relationship."
+            }
+        ]
     }
 }

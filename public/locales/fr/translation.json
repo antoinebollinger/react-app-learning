@@ -29,5 +29,42 @@
         "project2": "Projet de réseau social dans le cadre de ma formation Openclassrooms",
         "project3": "Projet de site e-commerce (formation Openclassrooms)",
         "project4": "Projet Transformer une maquette en site web"
+    },
+    "experience": {
+        "title": "Expériences",
+        "experiences": [
+            {
+                "title": "Développeur | Assistant Marketing Op.",
+                "class": "osborn",
+                "company": "Osborn Unipol SAS | Industrie",
+                "date": "Février 2017 - Aujourd'hui",
+                "description": "Création et gestion de la base de données produits (MySQL). Création d’un site internet CRM. Marketing opérationnel : campagne mailing, création de brochures & catalogues.",
+                "learned": "Acquis : Indesign, VBA, PHP + MySQL + JQuery."
+            },
+            {
+                "title": "Agent de réservation",
+                "class": "duga",
+                "company": "DUGA SARL | Tourisme, VTC",
+                "date": "Septembre 2010 - Mai 2016",
+                "description": "Traitement des demandes des clients, animation d’un réseau de clients professionnels.",
+                "learned": "Acquis : Gestion d’entreprise, logistique, marketing, Html + CSS (création du site Internet)."
+            },
+            {
+                "title": "Traducteur Portugais | Français",
+                "class": "worker",
+                "company": "Auto-entrepreneur",
+                "date": "Mai 2010 - Aujourd'hui",
+                "description": "Traduction de documents académiques (thèses de doctorat, articles et ouvrages scientifiques) et juridiques (contrats).",
+                "learned": "Acquis : Gestion administrative et comptable, Html + CSS (création du site Internet)."
+            },
+            {
+                "title": "Équipier polyvalent",
+                "class": "mcdo",
+                "company": "McDonlads France | Restauration",
+                "date": "Mars 2007 - Septembre 2010",
+                "description": "Préparation & ventes des produits, propreté & hygiène du restaurant.",
+                "learned": "Acquis : Rigueur, rapidité, travail en équipe, relation client."
+            }
+        ]
     }
 }

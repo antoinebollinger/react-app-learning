@@ -10,10 +10,9 @@ import Postman from '../assets/img/postman.png';
 import Wamp from '../assets/img/wamp.png';
 import Gitbash from '../assets/img/gitbash.png';
 
-import { useTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 
-const Skills = () => {
-    const { t } = useTranslation([]);
+const Skills = ({ t }) => {
     return (
         <section className="resume-section" id="skills">
             <div className="resume-section-content">
@@ -75,4 +74,4 @@ const Skills = () => {
     );
 }
 
-export default Skills;
+export default withTranslation() (Skills);

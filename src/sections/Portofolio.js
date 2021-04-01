@@ -1,9 +1,8 @@
 import Neutral from '../assets/img/portofolio/neutral.jpg';
 
-import { useTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 
-const Portofolio = () => {
-    const { t } = useTranslation([]);
+const Portofolio = ({ t }) => {
     return (
         <section className="resume-section" id="portofolio">
             <div className="resume-section-content">
@@ -29,4 +28,4 @@ const Portofolio = () => {
     );
 }
 
-export default Portofolio;
+export default withTranslation() (Portofolio);

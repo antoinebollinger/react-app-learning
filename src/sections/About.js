@@ -1,10 +1,9 @@
 import CV_EN from '../assets/pdf/CV_EN.pdf';
 import CV_FR from '../assets/pdf/CV_FR.pdf';
 
-import { useTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 
-const About = () => {
-    const { t } = useTranslation([]);
+const About = ({ t }) => {
     return (
         <section className="resume-section" id="about">
             <div className="resume-section-content">
@@ -25,4 +24,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default withTranslation() (About);

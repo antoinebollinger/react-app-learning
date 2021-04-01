@@ -29,5 +29,42 @@
         "project2": "Projeto de rede social no contexto da minha formação Openclassrooms",
         "project3": "Projeto de site eCommerce (formação Openclassrooms)",
         "project4": "Projeto Tornar um Mock-up em website"
+    },
+    "experience": {
+        "title": "Experiências",
+        "experiences": [
+            {
+                "title": "Desenvolvedor | Assistante Marketing",
+                "class": "osborn",
+                "company": "Osborn Unipol SAS | Industrie",
+                "date": "Fevereiro 2017 - Hoje",
+                "description": "Criação da base de dados dos produtos (MySQL). Criação de um site interno (CRM). Marketing operacional: campanha de e-mail, criação de brochuras & catálogo.",
+                "learned": "Eu aprendi: Indesign, VBA, PHP + MySQL + JQuery."
+            },
+            {
+                "title": "Agente de reserva",
+                "class": "duga",
+                "company": "DUGA SARL | Turismo",
+                "date": "Setembro 2010 - Maio 2016",
+                "description": "Tratamento das demandas dos clientes, animação de uma rede de clientes profissionais.",
+                "learned": "Eu aprendi: Gestão de empresas, logística, marketing, Html + CSS (criação do site Internet)."
+            },
+            {
+                "title": "Tradutor português-francês",
+                "class": "worker",
+                "company": "Independente",
+                "date": "Maio 2010 - Hoje",
+                "description": "Tradução de documentos académicos (teses de doutorado, artigos e obras científicos) e jurídico (contratos).",
+                "learned": "Eu aprendi: Gestão administrativa e contábil, Html + CSS (criação do site Internet)."
+            },
+            {
+                "title": "Funcionário polivalente",
+                "class": "mcdo",
+                "company": "McDonlads France | Fastfood",
+                "date": "Mars 2007 - Septembre 2010",
+                "description": "Preparação e venda de produtos, limpeza e higiene do restaurante.",
+                "learned": "Eu aprendi : Rigor, rapidez, trabalho em conjunto, relação cliente."
+            }
+        ]
     }
 }

@@ -14,7 +14,7 @@ function Main() {
             <Portofolio />
             <hr className="m-0" />
             <Experience />
-            <hr className="m-0" />
+            <hr className="m-0 " />
             <Education />
         </div>
     );

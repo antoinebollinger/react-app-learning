@@ -3,11 +3,10 @@ import ReactLogo from '../assets/img/react.png';
 import ScrollspyNav from "react-scrollspy-nav";
 import LanguageSelector from '../services/languageSelector';
 
-import { useTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 import { useState } from "react";
 
-const Nav = () => {
-    const { t } = useTranslation();
+const Nav = ({ t }) => {
     const refreshPage = () => {
         window.location.reload();
     }
@@ -15,8 +14,6 @@ const Nav = () => {
     const toggleClass = () => {
         setActive(!isActive);
     };
-
-   
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
             <p className="navbar-brand mb-0" onClick={() => refreshPage()}>
@@ -41,4 +38,4 @@ const Nav = () => {
     );
 }
 
-export default Nav;
+export default withTranslation() (Nav);
