@@ -50,9 +50,13 @@ const Skills = ({ t }) => {
                     <div className="w-50 p-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
                         <p className="subheading">Front-end</p>
                         <div className="flex-grow-1 d-flex flex-column align-items-center justify-content-around">
-                            <div className="d-flex">
-                                <img src={VueJS} className="w-50 pr-2" alt="Vue.js" />
-                                <img src={React} className="w-50" alt="React" />
+                            <div className="d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+                                <div className="w-50 pr-2">
+                                    <img src={VueJS} className="w-100" alt="Vue.js" />
+                                </div>
+                                <div className="w-50">
+                                    <img src={React} className="w-100" alt="React" />
+                                </div>
                             </div>
                             <div className="d-flex">
                                 <ul className="list-inline dev-icons">
