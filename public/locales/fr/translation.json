@@ -66,5 +66,8 @@
                 "learned": "Acquis : Rigueur, rapidité, travail en équipe, relation client."
             }
         ]
+    },
+    "education": {
+        "title": "Formation"
     }
 }

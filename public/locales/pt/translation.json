@@ -66,5 +66,8 @@
                 "learned": "Eu aprendi : Rigor, rapidez, trabalho em conjunto, relação cliente."
             }
         ]
+    },
+    "education": {
+        "title": "Educação"
     }
 }

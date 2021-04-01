@@ -4,7 +4,7 @@ import Portofolio from '../sections/Portofolio';
 import Experience from '../sections/Experience';
 import Education from '../sections/Education';
 
-function Main() {
+const Main = () => {
     return (
         <div className="container-fluid p-0">
             <About />

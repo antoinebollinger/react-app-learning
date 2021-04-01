@@ -66,5 +66,8 @@
                 "learned": "What I've learned : Rigor, speed, teamwork, customer relationship."
             }
         ]
+    },
+    "education": {
+        "title": "Education"
     }
 }

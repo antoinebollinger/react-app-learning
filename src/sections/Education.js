@@ -1,8 +1,9 @@
-function Education() {
+import { withTranslation } from "react-i18next";
+const Education = ({ t }) => {
     return (
         <section className="resume-section" id="education">
             <div className="resume-section-content">
-                <h2 className="mb-5">Education</h2>
+                <h2 className="mb-5">{ t('education.title') }</h2>
                 <div className="d-flex flex-column-reverse flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <div className="d-flex flex-row align-items-md-center mb-3">
@@ -54,4 +55,4 @@ function Education() {
     );
 }
 
-export default Education;
+export default withTranslation() (Education);

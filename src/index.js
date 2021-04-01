@@ -5,9 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import './scss/custom.scss';
 import i18n from './i18n';
 import { I18nextProvider } from 'react-i18next';
+import Spinner from './components/Spinner';
 
 ReactDOM.render(
-  <React.Suspense fallback="Loading...">
+  <React.Suspense fallback={<Spinner />}>
     <I18nextProvider i18n={i18n}>
       <App />
     </I18nextProvider>
