@@ -1,7 +1,7 @@
 const Spinner = () => {
     return (
-        <div className="position-fixed w-100 h-100 d-flex align-items-center justify-content-center">
-            <h1>Loading...</h1>
+        <div className="spinner position-fixed w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+            <div className="spinner-border mb-2" role="status"></div>   
         </div>
     );
 }

@@ -1,4 +1,7 @@
 {
+    "spinner": {
+        "loading": "Carregando"
+    },
     "nav": {
         "about": "Sobre mim",
         "skills": "Competências",
@@ -61,13 +64,48 @@
                 "title": "Funcionário polivalente",
                 "class": "mcdo",
                 "company": "McDonlads France | Fastfood",
-                "date": "Mars 2007 - Septembre 2010",
+                "date": "Março 2007 - Setembro 2010",
                 "description": "Preparação e venda de produtos, limpeza e higiene do restaurante.",
                 "learned": "Eu aprendi : Rigor, rapidez, trabalho em conjunto, relação cliente."
             }
         ]
     },
     "education": {
-        "title": "Educação"
+        "title": "Educação",
+        "educations": [
+            {
+                "title": "Desenvolvedor Web Full-Stack",
+                "school": "Openclassrooms",
+                "date": "Novembro 2020 - Abril 2021",
+                "description": "Formação em 7 projetos com o acompanhamento de um mentor profissional:",
+                "list": [
+                    "Descobrir o desenvolvimento web",
+                    "Tornar um Mock-up em site web (Html & CSS)",
+                    "Animar um site (animações CSS)",
+                    "Otimisar um site (SEO)",
+                    "Construir um site e-Comércio (Javascript)",
+                    "Desenvolver uma API segura (Node.js, Express, MongoDB)",
+                    "Criar uma rede social (Vue.js, MySQL)"
+                ]
+            },
+            {
+                "title": "Licença Línguas, Literaturas e Civilizações Estrangeiras (LLCE) Português (2 anos de estudo)",
+                "school": "Universidade Paris III Sorbonne Nouvelle",
+                "date": "2007 - 2009",
+                "description": "",
+                "list": [
+
+                ]
+            },
+            {
+                "title": "Baccalauréat Sciences et Technologies de l’Industrie (STI) Génie Mécanique, Option Productique, Mention Bien",
+                "school": "Lycée Blaise Pascal, Colmar (68)",
+                "date": "2002",
+                "description": "",
+                "list": [
+
+                ]
+            }
+        ]
     }
 }

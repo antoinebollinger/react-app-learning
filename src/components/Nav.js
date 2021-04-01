@@ -32,7 +32,7 @@ const Nav = ({ t }) => {
                     </ul>
                 </ScrollspyNav>
             </div>
-            <div className="poweredBy d-flex"><p className="text-light">Proudly powered by React <img src={ReactLogo} className="App-logo" alt="logo" /></p></div>
+            <div className="poweredBy d-flex"><p className="text-light">Proudly powered by <a href="https://fr.reactjs.org/" className="white" alt="React">React <img src={ReactLogo} className="App-logo" alt="logo" /></a></p></div>
         </nav>
     );
 }

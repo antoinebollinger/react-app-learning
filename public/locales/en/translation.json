@@ -1,4 +1,7 @@
 {
+    "spinner": {
+        "loading": "Loading"
+    },
     "nav": {
         "about": "About",
         "skills": "Skills",
@@ -68,6 +71,41 @@
         ]
     },
     "education": {
-        "title": "Education"
+        "title": "Education",
+        "educations": [
+            {
+                "title": "Full-stack Web Developer",
+                "school": "Openclassrooms",
+                "date": "November 2020 - April 2021",
+                "description": "7 Projects training program under the supervision of a professional mentor:",
+                "list": [
+                    "Take Ownership of the Web Developer Path",
+                    "Turn Mock-ups Into a Web Page (Html & CSS)",
+                    "Integrate a mobile website with animations in CSS",
+                    "Optimize an Existing Website (SEO)",
+                    "Build an eCommerce Website (Javascript)",
+                    "Build a Secure API for a Review App (Node.js, Express, MongoDB)",
+                    "Build a Full-Stack Solution (Vue.js, MySQL)"
+                ]
+            },
+            {
+                "title": "Licence Langues, Littératures et Civilisations Étrangères (LLCE) Portuguese (2 years of studies)",
+                "school": "University Paris III Sorbonne Nouvelle",
+                "date": "2007 - 2009",
+                "description": "",
+                "list": [
+
+                ]
+            },
+            {
+                "title": "Baccalauréat Sciences et Technologies de l’Industrie (STI) Génie Mécanique, Option Productique, Mention Bien",
+                "school": "Lycée Blaise Pascal, Colmar (68)",
+                "date": "2002",
+                "description": "",
+                "list": [
+
+                ]
+            }
+        ]
     }
 }

@@ -1,4 +1,7 @@
 {
+    "spinner": {
+        "loading": "Chargement"
+    },
     "nav": {
         "about": "Accueil",
         "skills": "Compétences",
@@ -68,6 +71,41 @@
         ]
     },
     "education": {
-        "title": "Formation"
+        "title": "Formation (niveau Bac+2)",
+        "educations": [
+            {
+                "title": "Développeur Web Full-Stack",
+                "school": "Openclassrooms",
+                "date": "Novembre 2020 - Avril 2021",
+                "description": "Formation en 7 projets sous la tutelle d’un mentor professionnel :",
+                "list": [
+                    "Découvrir le développement web",
+                    "Transformer une maquette en site web (Html & CSS)",
+                    "Dynamiser un site (animations CSS)",
+                    "Optimiser un site (SEO)",
+                    "Construire un site e-commerce (Javascript)",
+                    "Développer une API sécurisée (Node.js, Express, MongoDB)",
+                    "Créer un réseau social (Vue.js, MySQL)"
+                ]
+            },
+            {
+                "title": "Licence Langues, Littératures et Civilisations Étrangères (LLCE) Portugais (2 ans d’études)",
+                "school": "Université Paris III Sorbonne Nouvelle",
+                "date": "2007 - 2009",
+                "description": "",
+                "list": [
+
+                ]
+            },
+            {
+                "title": "Baccalauréat Sciences et Technologies de l’Industrie (STI) Génie Mécanique, Option Productique, Mention Bien",
+                "school": "Lycée Blaise Pascal, Colmar (68)",
+                "date": "2002",
+                "description": "",
+                "list": [
+
+                ]
+            }
+        ]
     }
 }
