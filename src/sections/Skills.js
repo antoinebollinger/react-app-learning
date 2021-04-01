@@ -4,6 +4,7 @@ import Mysql from '../assets/img/mysql.png';
 import MongoDB from '../assets/img/mongoDB.png';
 import NodeJS from '../assets/img/node_express.png';
 import VueJS from '../assets/img/vuejs.png';
+import React from '../assets/img/react_complete.png';
 import Windows from '../assets/img/windows.png';
 import VCS from '../assets/img/vcs.png';
 import Postman from '../assets/img/postman.png';
@@ -49,7 +50,10 @@ const Skills = ({ t }) => {
                     <div className="w-50 p-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
                         <p className="subheading">Front-end</p>
                         <div className="flex-grow-1 d-flex flex-column align-items-center justify-content-around">
-                            <img src={VueJS} className="w-50" alt="Vue.js" />
+                            <div className="d-flex">
+                                <img src={VueJS} className="w-50 pr-2" alt="Vue.js" />
+                                <img src={React} className="w-50" alt="React" />
+                            </div>
                             <div className="d-flex">
                                 <ul className="list-inline dev-icons">
                                     <li className="list-inline-item"><i className="fab fa-html5"></i></li>
