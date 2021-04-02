@@ -39,6 +39,12 @@
                 "class": "traductions"
             },
             {
+                "title": "O site do Michel Dumont, Filatelista",
+                "description": "Michel precisava de um website para expor a coleção de selos dele. Eu que fiz.",
+                "url": "https://www.antoine-traductions.com/michel-dumont",
+                "class": "dumont"
+            },
+            {
                 "title": "Projeto de rede social no contexto da minha formação Openclassrooms",
                 "description": "Um projeto final muito interessante, cheio de aprendizagens: back-end com Node.js & Express, front com Vue.js",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
@@ -49,6 +55,12 @@
                 "description": "Para este projeto, ja tinhamos o back-end. Bastava escrever o front... em Javascript, 'from scratch'!",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
+            },
+            {
+                "title": "Projeto Animar um site (animações CSS)",
+                "description": "Adicionar as animações CSS foi muito divertido!",
+                "url": "https://ab-ohmyfood.netlify.app/",
+                "class": "ohmyfood"
             },
             {
                 "title": "Projeto Tornar um Mock-up em website",

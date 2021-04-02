@@ -39,6 +39,12 @@
                 "class": "traductions"
             },
             {
+                "title": "Michel Dumont's website, Philatelist",
+                "description": "Michel needed to offer his duplicate stamps for exchange. I took care of it.",
+                "url": "https://www.antoine-traductions.com/michel-dumont",
+                "class": "dumont"
+            },
+            {
                 "title": "Social network project (Openclassrooms bootcamp)",
                 "description": "A very special project in my Openclassrooms bootcamp, the final one. Using node.js and Express for the back, and Vue.js for the front.",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
@@ -49,6 +55,12 @@
                 "description": "For this, we already had the back-end. We had to write from scratch the front-end, in Javascript.",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
+            },
+            {
+                "title": "Project Integrate a mobile website with animations in CSS",
+                "description": "Add CSS animations in a website was very funny!",
+                "url": "https://ab-ohmyfood.netlify.app/",
+                "class": "ohmyfood"
             },
             {
                 "title": "Project Turn Mock-up into a website",

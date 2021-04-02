@@ -11,11 +11,17 @@
         &.traductions {
             background-image: url('#{$assetPath}/portofolio/antoine-traductions.jpg');
         }
+        &.dumont {
+            background-image: url('#{$assetPath}/portofolio/michel-dumont.jpg');
+        }
         &.groupomania {
             background-image: url('#{$assetPath}/portofolio/groupomania.jpg');
         }
         &.orinoco {
             background-image: url('#{$assetPath}/portofolio/orinoco.jpg');
+        }
+        &.ohmyfood {
+            background-image: url('#{$assetPath}/portofolio/ohmyfood.jpg');
         }
         &.reservia {
             background-image: url('#{$assetPath}/portofolio/reservia.jpg');
