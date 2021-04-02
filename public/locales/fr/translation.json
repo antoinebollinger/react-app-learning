@@ -19,9 +19,12 @@
     },
     "skills": {
         "title": "Compétences",
-        "skill1": "Autonome, organisé, autodidacte, flexible",
-        "skill2": "Bonne maîtrise d'Adobe InDesign & Photoshop, Microsoft Office",
-        "skill3": "Anglais professionnel | Portugais bilingue",
+        "skills": [
+            "Traduction, création, communication",
+            "Adobe InDesign & Photoshop, Microsoft Office",
+            "Anglais professionnel | Portugais bilingue",
+            "Autonome, organisé, autodidacte, flexible"
+        ],
         "languages": "Langages",
         "environment": "Environnement",
         "databases": "Bases de données"

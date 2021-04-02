@@ -14,21 +14,21 @@ import Gitbash from '../assets/img/gitbash.png';
 import { withTranslation } from "react-i18next";
 
 const Skills = ({ t }) => {
+    const mySkills = t('skills.skills', {returnObjects: true});
+    const Skills = mySkills.map(function(skill, index) {
+        return (
+            <li key={index}>
+                <span className="fa-li"><i className="fas fa-check"></i></span>
+                <span className="font-weight-bold">{ skill }</span>
+            </li>
+        );
+    });
     return (
         <section className="resume-section" id="skills">
             <div className="resume-section-content">
                 <h2 className="mb-5">{ t('skills.title') }</h2>
                 <ul className="fa-ul mb-5">
-                    <li>
-                        <span className="fa-li"><i className="fas fa-check"></i></span>
-                        <span className="font-weight-bold">{ t('skills.skill1') }</span>
-                    </li>
-                    <li>
-                        <span className="fa-li"><i className="fas fa-check"></i></span>{ t('skills.skill2') }
-                    </li>
-                    <li>
-                        <span className="fa-li"><i className="fas fa-check"></i></span>{ t('skills.skill3') }
-                    </li>
+                    {Skills}
                 </ul>    
                 <div className="d-flex flex-row align-items-center mb-5">
                     <div className="subheading mr-3">{ t('skills.languages') } : </div>

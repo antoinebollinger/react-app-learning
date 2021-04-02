@@ -19,9 +19,12 @@
     },
     "skills": {
         "title": "Skills",
-        "skill1": "Autonomous, organized, self-made, flexible",
-        "skill2": "Good command of Adobe InDesign & Photoshop, Microsoft Office",
-        "skill3": "English professional | Portuguese bilingual",
+        "skills": [
+            "Translation, creation, communication",
+            "Adobe InDesign & Photoshop, Microsoft Office",
+            "English professional | Portuguese bilingual",
+            "Autonomous, organized, self-made, flexible"
+        ],
         "languages": "Languages",
         "environment": "Environment",
         "databases": "Databases"
