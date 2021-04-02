@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "Développeur Web",
-        "intro": "Traducteur. Créateur. Communiquant. Voilà les termes qui définissent le mieux mon travail. Que ce soit la traduction de textes, l’élaboration de catalogues, l’écriture du code d’un site web, tout cela implique la traduction - d’un besoin, d’une demande voire d’une envie - et la création d’un résultat, peu importe le format. Et tout cela participe à la communication entre les personnes. C’est à ce carrefour que se situe mon activité et ce qui m'anime.",
+        "intro": "<b>Traducteur</b>. <b>Créateur</b>. <b>Communiquant</b>. Voilà les termes qui définissent le mieux mon travail. Que ce soit la <b>traduction de textes</b>, <b>l’élaboration de catalogues</b>, <b>l’écriture du code</b> d’un site web, tout cela implique la <b>traduction - d’un besoin, d’une demande voire d’une envie -</b> et la <b>création d’un résultat</b>, peu importe le format. Et tout cela participe à la <b>communication entre les personnes</b>. C’est <b>à ce carrefour que se situe mon activité</b> et <b>ce qui m'anime</b>.",
         "pdf": "Cliquez pour télécharger mon CV au format PDF",
         "pdflink": "CV_FR",
         "linkedin": "Mon profil sur Linkedin",
@@ -20,9 +20,9 @@
     "skills": {
         "title": "Compétences",
         "skills": [
-            "Traduction, création, communication",
-            "Adobe InDesign & Photoshop, Microsoft Office",
-            "Anglais professionnel | Portugais bilingue",
+            "<b>Traduction, création, communication</b>",
+            "Adobe <b>InDesign</b> & <b>Photoshop</b>, Microsoft <b>Office</b>",
+            "<b>Anglais</b> professionnel | <b>Portugais</b> bilingue",
             "Autonome, organisé, autodidacte, flexible"
         ],
         "languages": "Langages",
@@ -66,7 +66,7 @@
                 "class": "osborn",
                 "company": "Osborn Unipol SAS | Industrie",
                 "date": "Février 2017 - Aujourd'hui",
-                "description": "Création et gestion de la base de données produits (MySQL). Création d’un site internet CRM. Marketing opérationnel : campagne mailing, création de brochures & catalogues.",
+                "description": "Création et gestion de la base de données produits (MySQL).<br/>Création d’un site internet CRM. Marketing opérationnel : campagne mailing, création de brochures & catalogues.",
                 "learned": "Acquis : Indesign, VBA, PHP + MySQL + JQuery."
             },
             {

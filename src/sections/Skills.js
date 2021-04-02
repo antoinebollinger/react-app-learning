@@ -19,7 +19,7 @@ const Skills = ({ t }) => {
         return (
             <li key={index}>
                 <span className="fa-li"><i className="fas fa-check"></i></span>
-                <span className="font-weight-bold">{ skill }</span>
+                <span dangerouslySetInnerHTML={{__html: skill }}/>
             </li>
         );
     });

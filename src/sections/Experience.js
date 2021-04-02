@@ -13,7 +13,7 @@ const Experience = ({ t }) => {
                             <div className="subheading">{ exp.company }</div>
                         </div>
                     </div>
-                    <p>{ exp.description }<br /><span className="font-weight-bold">{ exp.learned }</span></p>
+                    <p dangerouslySetInnerHTML={{__html: exp.description+'<br /><span class="font-weight-bold">'+exp.learned+'</span>' }}/>
                 </div>
                 <div className="flex-shrink-0"><span className="text-primary">{ exp.date }</span></div>
             </div>

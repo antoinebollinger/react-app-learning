@@ -16,7 +16,7 @@ const About = ({ t }) => {
                     <i className="fas fa-phone-alt mr-3"></i><a href="tel:+33611806396">+33 (0) 6 11 80 63 96</a><br />
                     <i className="fab fa-telegram mr-3"></i><a href="mailto:antoine.bollinger@gmail.com">antoine.bollinger@gmail.com</a>
                 </div>
-                <p className="lead mb-5">{ t('about.intro') }</p>
+                <p className="lead mb-5" dangerouslySetInnerHTML={{__html: t('about.intro') }}/>
                 <div className="social-icons">
                     <a className="social-icon" href={ (t('about.pdflink') === 'CV_FR') ? CV_FR : CV_EN } title={ t('about.pdf') } target="_blank" rel="noreferrer"><i className="fas fa-file-download"></i></a> 
                     <a className="social-icon" href="https://www.linkedin.com/in/antoinebollinger/" title={ t('about.linkedin') }><i className="fab fa-linkedin-in"></i></a> 
