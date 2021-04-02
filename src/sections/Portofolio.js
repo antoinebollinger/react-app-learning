@@ -5,11 +5,16 @@ const Portofolio = ({ t }) => {
     const myProjects = t('projects.projects', {returnObjects: true});
     const Projects = myProjects.map(function(pro) {
         return (
-            <div className="col-md-6 p-2 position-relative">
-                <a href={ pro.url } className={`rounded shadow-sm d-block ${ pro.class}`} title={ pro.title }>
-                    <img src={Neutral} className="w-100 rounded" alt={ pro.title } />
+            <div key={pro.class} className="col-md-6 p-2">
+                <a href={ pro.url } title={ pro.title }>
+                    <div className={`projectImg position-relative rounded shadow-sm ${ pro.class}`}>
+                    
+                        <img src={Neutral} className="w-100" alt={ pro.title } />
+                        <div className="projectIntro position-absolute w-100 h-100 rounded d-flex justify-content-center align-items-center">
+                            <p className="col-8 text-center m-0">{ pro.description }</p>
+                        </div>
+                    </div>
                 </a>
-                <div className="position-absolute projectIntro"></div>
             </div>
         );
     });

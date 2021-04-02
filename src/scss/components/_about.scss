@@ -1,5 +1,8 @@
 .mobileProfile {
     display: block;
+    img {
+        border: 0.5rem solid $primary;
+    }
 }
 
 @include media-breakpoint-up(lg) {

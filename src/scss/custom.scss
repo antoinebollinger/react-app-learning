@@ -10,11 +10,11 @@ $assetPath : '../../assets/img/';
 @import "./global.scss";
 
 // Components
+@import "./components/spinner";
 @import "./components/sidenav";
 @import "./components/icons";
-@import "./components/portofolio";
-@import "./components/spinner";
 @import "./components/about";
+@import "./components/portofolio";
 
 // Sections
 @import "./sections/resume-section";
