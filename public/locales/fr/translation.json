@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "Développeur Web",
-        "intro": "Traduction. Création. Communication. Voilà les termes qui, selon moi, définissent le mieux mon travail. Que ce soit la traduction de textes, l’élaboration de catalogues, l’écriture du code d’un site web, tout cela implique la traduction - d’un besoin, d’une demande voire d’une envie - et la création d’un résultat, peu importe le format. Et tout cela participe à la communication entre les personnes. C’est là que je me situe.",
+        "intro": "Traducteur. Créateur. Communiquant. Voilà les termes qui définissent le mieux mon travail. Que ce soit la traduction de textes, l’élaboration de catalogues, l’écriture du code d’un site web, tout cela implique la traduction - d’un besoin, d’une demande voire d’une envie - et la création d’un résultat, peu importe le format. Et tout cela participe à la communication entre les personnes. C’est à ce carrefour que se situe mon activité et ce qui m'anime.",
         "pdf": "Cliquez pour télécharger mon CV au format PDF",
         "pdflink": "CV_FR",
         "linkedin": "Mon profil sur Linkedin",
@@ -27,36 +27,36 @@
         "databases": "Bases de données"
     },
     "projects": {
-        "title": "Projets", 
+        "title": "Projets Web", 
         "projects": [
             {
                 "title": "Mon site en tant que traducteur",
-                "description": "Description_1",
+                "description": "Mes premiers pas dans le web... D'abord en simple Html & Css, j'ai ensuite refondu le site en Php.",
                 "url": "https://www.antoine-traductions.com",
                 "class": "traductions"
             },
             {
                 "title": "Projet de réseau social dans le cadre de ma formation Openclassrooms",
-                "description": "Description_2",
+                "description": "Un très beau projet final : back-end avec Node.js et Express, front-end avec Vue.js.",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
                 "class": "groupomania"
             },
             {
                 "title": "Projet de site e-commerce (formation Openclassrooms)",
-                "description": "Description_3",
+                "description": "Ecrit en pur Javascript (le back étant fourni), un projet complet et très instructif.",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
             },
             {
                 "title": "Projet Transformer une maquette en site web",
-                "description": "Description_4",
+                "description": "(Ré)Apprentissage du Html / CSS, très important.",
                 "url": "https://ab-reservia.netlify.app/",
                 "class": "reservia"
             }
         ]
     },
     "experience": {
-        "title": "Expériences",
+        "title": "Expériences Pro",
         "experiences": [
             {
                 "title": "Développeur | Assistant Marketing Op.",
@@ -93,13 +93,13 @@
         ]
     },
     "education": {
-        "title": "Formation (niveau Bac+2)",
+        "title": "Formation",
         "educations": [
             {
                 "title": "Développeur Web Full-Stack",
                 "school": "Openclassrooms",
                 "date": "Novembre 2020 - Avril 2021",
-                "description": "Formation en 7 projets sous la tutelle d’un mentor professionnel :",
+                "description": "Formation diplômante en 7 projets sous la tutelle d’un mentor professionnel :",
                 "list": [
                     "Découvrir le développement web",
                     "Transformer une maquette en site web (Html & CSS)",

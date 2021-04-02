@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "Desenvolvedor Web",
-        "intro": "Tradução. Criação. Comunicação. Eis os termos que, eu acho, melhor definem o meu trabalho. Seja tradução de textos, elaboração de catálogos, redação do código de um website, tudo isso implica a tradução – de uma necessidade, um pedido ou até um desejo – e a criação de um resultado, tanto faz o formato. Et tudo isso participa da comunicação entre as pessoas. É aqui que eu estou.",
+        "intro": "Tradução. Criação. Comunicação. Eis os termos que melhor definem o meu trabalho. Seja tradução de textos, elaboração de catálogos, redação do código de um website, tudo isso implica a tradução – de uma necessidade, um pedido ou até um desejo – e a criação de um resultado, tanto faz o formato. Et tudo isso participa da comunicação entre as pessoas. É isso que é a minha atividade e isso que me anima.",
         "pdf": "Clique para baixar o meu currículo em PDF",
         "pdflink": "CV_EN",
         "linkedin": "Meu perfil no Linkedin",
@@ -27,36 +27,36 @@
         "databases": "Bases de dados"
     },
     "projects": {
-        "title": "Projetos", 
+        "title": "Projetos Web", 
         "projects": [
             {
                 "title": "Meu site apresentando o meu trabalho de tradutor",
-                "description": "Description_1",
+                "description": "",
                 "url": "https://www.antoine-traductions.com",
                 "class": "traductions"
             },
             {
                 "title": "Projeto de rede social no contexto da minha formação Openclassrooms",
-                "description": "Description_2",
+                "description": "",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
                 "class": "groupomania"
             },
             {
                 "title": "Projeto de site eCommerce (formação Openclassrooms)",
-                "description": "Description_3",
+                "description": "",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
             },
             {
                 "title": "Projeto Tornar um Mock-up em website",
-                "description": "Description_4",
+                "description": "",
                 "url": "https://ab-reservia.netlify.app/",
                 "class": "reservia"
             }
         ]
     },
     "experience": {
-        "title": "Experiências",
+        "title": "Experiências Pro",
         "experiences": [
             {
                 "title": "Desenvolvedor | Assistante Marketing",

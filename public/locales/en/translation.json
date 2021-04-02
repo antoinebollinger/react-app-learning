@@ -11,7 +11,7 @@
     },        
     "about": {
         "title": "Web Developer",
-        "intro": "Translation. Creation. Communication. These are the words that I think best define my work. Translating texts, elaborating catalogs, writing codes for website, all this implies translation – of a need, a request or even a desire – and the creation of a result, whatever the format. And all this contributes to communication between people. That is where I am.",
+        "intro": "Translator. Creator. Communicating. These are the words that best define my work. Translating texts, elaborating catalogs, writing codes for website, all this implies translation – of a need, a request or even a desire – and the creation of a result, whatever the format. And all this contributes to communication between people. That is where is my activity and what drives me.",
         "pdf": "Click to download my resume as a PDF file",
         "pdflink": "CV_EN",
         "linkedin": "My profile on Linkedin",
@@ -27,36 +27,36 @@
         "databases": "Databases"
     },
     "projects": {
-        "title": "Projects", 
+        "title": "Web Projects", 
         "projects": [
             {
                 "title": "My website as a translator",
-                "description": "Description_1",
+                "description": "",
                 "url": "https://www.antoine-traductions.com",
                 "class": "traductions"
             },
             {
                 "title": "Social network project (Openclassrooms bootcamp)",
-                "description": "Description_2",
+                "description": "",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
                 "class": "groupomania"
             },
             {
                 "title": "eCommerce website (Openclassrooms bootcamp)",
-                "description": "Description_3",
+                "description": "",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
             },
             {
                 "title": "Project Turn Mock-up into a website",
-                "description": "Description_4",
+                "description": "",
                 "url": "https://ab-reservia.netlify.app/",
                 "class": "reservia"
             }
         ]
     },
     "experience": {
-        "title": "Experience",
+        "title": "Experience Pro",
         "experiences": [
             {
                 "title": "Developer | Marketing Assistant",

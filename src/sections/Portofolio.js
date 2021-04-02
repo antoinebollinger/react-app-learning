@@ -10,8 +10,8 @@ const Portofolio = ({ t }) => {
                     <div className={`projectImg position-relative rounded shadow-sm ${ pro.class}`}>
                     
                         <img src={Neutral} className="w-100" alt={ pro.title } />
-                        <div className="projectIntro position-absolute w-100 h-100 rounded d-flex justify-content-center align-items-center">
-                            <p className="col-8 text-center m-0">{ pro.description }</p>
+                        <div className="projectIntro position-absolute w-100 h-100 rounded d-flex justify-content-center align-items-center flex-column">
+                            <p className="w-75 text-center m-0"><span className="font-weight-bold">{pro.title}</span><br/><br/>{ pro.description }</p>
                         </div>
                     </div>
                 </a>
