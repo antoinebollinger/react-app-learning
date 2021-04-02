@@ -9,7 +9,7 @@ const Education = ({ t }) => {
                 <div className="d-flex flex-column-reverse flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <div className="d-flex flex-row align-items-md-center mb-3">
-                            <div className="resume-section-image mr-3 oc"></div>
+                            <div className="resume-section-image mr-3 flex-shrink-0 oc"></div>
                             <div className="flex-grow-1">
                                 <h3 className="mb-0"><a href="https://openclassrooms.com/" title={ myEducations[0].school }>{ myEducations[0].school }</a></h3>
                                 <div className="subheading">{ myEducations[0].title }</div>
@@ -31,7 +31,7 @@ const Education = ({ t }) => {
                 <div className="d-flex flex-column-reverse flex-md-row justify-content-between">
                     <div className="flex-grow-1">
                         <div className="d-flex flex-row align-items-md-center mb-3">
-                            <div className="resume-section-image mr-3 sorbonne"></div>
+                            <div className="resume-section-image mr-3 flex-shrink-0 sorbonne"></div>
                             <div className="flex-grow-1">
                                 <h3 className="mb-0"><a href="http://www.univ-paris3.fr/" title={ myEducations[1].school }>{ myEducations[1].school }</a></h3>
                                 <div className="subheading">{ myEducations[1].title }</div>
@@ -43,7 +43,7 @@ const Education = ({ t }) => {
                 <div className="d-flex flex-column-reverse flex-md-row justify-content-between">
                     <div className="flex-grow-1">
                         <div className="d-flex flex-row align-items-md-center mb-3">
-                            <div className="resume-section-image mr-3 lycee"></div>
+                            <div className="resume-section-image mr-3 flex-shrink-0 lycee"></div>
                             <div className="flex-grow-1">
                                 <h3 className="mb-0">{ myEducations[2].school }</h3>
                                 <div className="subheading">{ myEducations[2].title }</div>
