@@ -20,7 +20,7 @@ const Nav = ({ t }) => {
                 <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={profile} alt="Accueil" /></span>
             </p>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => toggleClass()}><span className="navbar-toggler-icon"></span></button>
-            <div className={`collapse navbar-collapse ${(isActive) ? 'show' : ''}`} id="navbarSupportedContent">
+            <div className={`collapse navbar-collapse ${(isActive) ? 'smoothShow' : ''}`} id="navbarSupportedContent">
                 <ScrollspyNav scrollTargetIds={['about', 'skills', 'portofolio', 'experience', 'education']} activeNavClass="active" scrollDuration="400">
                     <ul className="navbar-nav" onClick={() => toggleClass()}>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">{ t('nav.about') }</a></li>

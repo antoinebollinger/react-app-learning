@@ -33,6 +33,15 @@
     .poweredBy {
         display: none!important;
     }
+    .navbar-collapse {
+        display: block;
+        overflow: hidden;
+        max-height:0;
+        transition: all 0.4s;
+        &.smoothShow {
+            max-height: 100vh;
+        }
+    }
 }
 
 @include media-breakpoint-up(lg) {
@@ -63,6 +72,7 @@
             flex-grow: 0;
             width: 100%;
             margin-bottom: auto;
+            max-height: unset;
             > div {
                 width: 100%;
             }
