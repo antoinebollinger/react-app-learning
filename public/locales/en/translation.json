@@ -34,25 +34,25 @@
         "projects": [
             {
                 "title": "My website as a translator",
-                "description": "",
+                "description": "My first septs in web... Originaly developed in only Html & CSS, it is now powered by Php.",
                 "url": "https://www.antoine-traductions.com",
                 "class": "traductions"
             },
             {
                 "title": "Social network project (Openclassrooms bootcamp)",
-                "description": "",
+                "description": "A very special project in my Openclassrooms bootcamp, the final one. Using node.js and Express for the back, and Vue.js for the front.",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
                 "class": "groupomania"
             },
             {
                 "title": "eCommerce website (Openclassrooms bootcamp)",
-                "description": "",
+                "description": "For this, we already had the back-end. We had to write from scratch the front-end, in Javascript.",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
             },
             {
                 "title": "Project Turn Mock-up into a website",
-                "description": "",
+                "description": "I already had notions of Html & Css, but this project projected me!",
                 "url": "https://ab-reservia.netlify.app/",
                 "class": "reservia"
             }

@@ -34,25 +34,25 @@
         "projects": [
             {
                 "title": "Meu site apresentando o meu trabalho de tradutor",
-                "description": "",
+                "description": "Meus primeiros passos no Web... primeiro escrito em simples Html & CSS, passei agora para o Php.",
                 "url": "https://www.antoine-traductions.com",
                 "class": "traductions"
             },
             {
                 "title": "Projeto de rede social no contexto da minha formação Openclassrooms",
-                "description": "",
+                "description": "Um projeto final muito interessante, cheio de aprendizagens: back-end com Node.js & Express, front com Vue.js",
                 "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
                 "class": "groupomania"
             },
             {
                 "title": "Projeto de site eCommerce (formação Openclassrooms)",
-                "description": "",
+                "description": "Para este projeto, ja tinhamos o back-end. Bastava escrever o front... em Javascript, 'from scratch'!",
                 "url": "https://ab-orinoco.netlify.app/index.html",
                 "class": "orinoco"
             },
             {
                 "title": "Projeto Tornar um Mock-up em website",
-                "description": "",
+                "description": "Eu já tinha nocões do Html & CSS. Este projeto me projetou para frente!",
                 "url": "https://ab-reservia.netlify.app/",
                 "class": "reservia"
             }
