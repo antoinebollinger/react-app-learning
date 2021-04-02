@@ -36,18 +36,18 @@ const Skills = ({ t }) => {
                     <div className="dev-icons mr-3"><img src={Js} className="rounded" alt="JS" /></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row align-items-center align-items-md-stretch justify-content-around skills mb-5">
-                    <div className="w-25 p-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
+                    <div className="col-md-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
                         <p className="subheading">{ t('skills.databases') }</p>
                         <div className="flex-grow-1 d-flex flex-column align-items-center justify-content-around">
                             <img src={Mysql} className="w-75" alt="MySQL" />
                             <img src={MongoDB} className="w-75" alt="MongoDB" />
                         </div>
                     </div>
-                    <div className="w-50 mx-2 p-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
+                    <div className="col-md-5 mx-1 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
                         <p className="subheading">Back-end</p>
                         <img src={NodeJS} className="w-75" alt="Node.js Express" />
                     </div>
-                    <div className="w-50 p-2 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
+                    <div className="col-md-5 mb-md-0 mb-3 d-flex flex-column align-items-center justify-content-center">
                         <p className="subheading">Front-end</p>
                         <div className="flex-grow-1 d-flex flex-column align-items-center justify-content-around">
                             <div className="d-flex flex-column flex-md-row align-items-center align-items-md-stretch">

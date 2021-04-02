@@ -1,7 +1,7 @@
 import { withTranslation  } from "react-i18next";
 
 const Experience = ({ t }) => {
-    const myExperiences = t('experience.experiences',{returnObjects: true});
+    const myExperiences = t('experience.experiences', {returnObjects: true});
     const Experiences = myExperiences.map(function(exp) {
         return (
             <div key={exp.class} className="d-flex flex-column-reverse flex-md-row justify-content-between mb-5">

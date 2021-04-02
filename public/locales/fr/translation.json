@@ -28,10 +28,32 @@
     },
     "projects": {
         "title": "Projets", 
-        "project1": "Mon site en tant que traducteur",
-        "project2": "Projet de réseau social dans le cadre de ma formation Openclassrooms",
-        "project3": "Projet de site e-commerce (formation Openclassrooms)",
-        "project4": "Projet Transformer une maquette en site web"
+        "projects": [
+            {
+                "title": "Mon site en tant que traducteur",
+                "description": "Description_1",
+                "url": "https://www.antoine-traductions.com",
+                "class": "traductions"
+            },
+            {
+                "title": "Projet de réseau social dans le cadre de ma formation Openclassrooms",
+                "description": "Description_2",
+                "url": "https://github.com/antoinebollinger/AntoineBollinger_7_03022021",
+                "class": "groupomania"
+            },
+            {
+                "title": "Projet de site e-commerce (formation Openclassrooms)",
+                "description": "Description_3",
+                "url": "https://ab-orinoco.netlify.app/index.html",
+                "class": "orinoco"
+            },
+            {
+                "title": "Projet Transformer une maquette en site web",
+                "description": "Description_4",
+                "url": "https://ab-reservia.netlify.app/",
+                "class": "reservia"
+            }
+        ]
     },
     "experience": {
         "title": "Expériences",
