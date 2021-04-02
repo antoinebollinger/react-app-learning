@@ -1,0 +1,9 @@
+.mobileProfile {
+    display: block;
+}
+
+@include media-breakpoint-up(lg) {
+    .mobileProfile {
+        display: none;
+    }
+}

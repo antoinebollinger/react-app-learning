@@ -1,13 +1,17 @@
 import CV_EN from '../assets/pdf/CV_EN.pdf';
 import CV_FR from '../assets/pdf/CV_FR.pdf';
+import profile from '../assets/img/profile.jpg';
 import { withTranslation } from "react-i18next";
 
 const About = ({ t }) => {
     return (
         <section className="resume-section" id="about">
             <div className="resume-section-content">
+                <div className="w-100 mb-5 text-center mobileProfile">
+                    <img className="rounded-circle w-50" src={profile} alt="Profile" />
+                </div>
                 <h1 className="mb-0">Antoine <span className="text-primary">Bollinger</span></h1>
-                <h2 className="mb-5"><span className="text-primary">{ t('about.title') }</span> Junior</h2>
+                <h2 className="mb-5">{ t('about.title') }</h2>
                 <div className="subheading mb-5">
                     <i className="fas fa-phone-alt mr-3"></i><a href="tel:+33611806396">+33 (0) 6 11 80 63 96</a><br />
                     <i className="fab fa-telegram mr-3"></i><a href="mailto:antoine.bollinger@gmail.com">antoine.bollinger@gmail.com</a>
