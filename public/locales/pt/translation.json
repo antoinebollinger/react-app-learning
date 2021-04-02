@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "Desenvolvedor Web",
-        "intro": "Tradução. Criação. Comunicação. Eis os termos que melhor definem o meu trabalho. Seja tradução de textos, elaboração de catálogos, redação do código de um website, tudo isso implica a tradução – de uma necessidade, um pedido ou até um desejo – e a criação de um resultado, tanto faz o formato. Et tudo isso participa da comunicação entre as pessoas. É isso que é a minha atividade e isso que me anima.",
+        "intro": "<b>Tradução</b>. <b>Criação</b>. <b>Comunicação</b>. Eis os termos que melhor definem o meu trabalho. Seja <b>tradução de textos</b>, <b>elaboração de catálogos</b>, <b>redação do código</b> de um website, tudo isso implica a <b>tradução – de uma necessidade, um pedido ou até um desejo –</b> e a <b>criação de um resultado</b>. Et tudo isso participa da <b>comunicação entre as pessoas</b>. <b>É isso que é a minha atividade</b> e <b>é isso que me anima</b>.",
         "pdf": "Clique para baixar o meu currículo em PDF",
         "pdflink": "CV_EN",
         "linkedin": "Meu perfil no Linkedin",
@@ -20,9 +20,9 @@
     "skills": {
         "title": "Competências",
         "skills": [
-            "Tradução, criação, comunicação",
-            "Adobe InDesign & Photoshop, Microsoft Office",
-            "Inglês profissional | Português bilingue",
+            "<b>Tradução</b>, <b>criação</b>, <b>comunicação</b>",
+            "Adobe <b>InDesign</b> & <b>Photoshop</b>, Microsoft <b>Office</b>",
+            "<b>Inglês</b> profissional | <b>Português</b> bilingue",
             "Autônomo, organizado, autodidata, flexível"
         ],
         "languages": "Linguagens",
@@ -66,7 +66,7 @@
                 "class": "osborn",
                 "company": "Osborn Unipol SAS | Industrie",
                 "date": "Fevereiro 2017 - Hoje",
-                "description": "Criação da base de dados dos produtos (MySQL). Criação de um site interno (CRM). Marketing operacional: campanha de e-mail, criação de brochuras & catálogo.",
+                "description": "Criação da base de dados dos produtos (MySQL).<br/>Criação de um site interno (CRM). Marketing operacional: campanha de e-mail, criação de brochuras & catálogo.",
                 "learned": "Eu aprendi: Indesign, VBA, PHP + MySQL + JQuery."
             },
             {

@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "Développeur Web",
-        "intro": "<b>Traducteur</b>. <b>Créateur</b>. <b>Communiquant</b>. Voilà les termes qui définissent le mieux mon travail. Que ce soit la <b>traduction de textes</b>, <b>l’élaboration de catalogues</b>, <b>l’écriture du code</b> d’un site web, tout cela implique la <b>traduction - d’un besoin, d’une demande voire d’une envie -</b> et la <b>création d’un résultat</b>, peu importe le format. Et tout cela participe à la <b>communication entre les personnes</b>. C’est <b>à ce carrefour que se situe mon activité</b> et <b>ce qui m'anime</b>.",
+        "intro": "<b>Traducteur</b>. <b>Créateur</b>. <b>Communiquant</b>. Voilà les termes qui définissent le mieux mon travail. Que ce soit la <b>traduction de textes</b>, <b>l’élaboration de catalogues</b>, <b>l’écriture du code</b> d’un site web, tout cela implique la <b>traduction - d’un besoin, d’une demande voire d’une envie -</b> et la <b>création d’un résultat</b>. Et tout cela participe à la <b>communication entre les personnes</b>. C’est <b>à ce carrefour que se situe mon activité</b> et <b>ce qui m'anime</b>.",
         "pdf": "Cliquez pour télécharger mon CV au format PDF",
         "pdflink": "CV_FR",
         "linkedin": "Mon profil sur Linkedin",
@@ -20,7 +20,7 @@
     "skills": {
         "title": "Compétences",
         "skills": [
-            "<b>Traduction, création, communication</b>",
+            "<b>Traduction</b>, <b>création</b>, <b>communication</b>",
             "Adobe <b>InDesign</b> & <b>Photoshop</b>, Microsoft <b>Office</b>",
             "<b>Anglais</b> professionnel | <b>Portugais</b> bilingue",
             "Autonome, organisé, autodidacte, flexible"

@@ -11,7 +11,7 @@
     },        
     "about": {
         "title": "Web Developer",
-        "intro": "Translator. Creator. Communicating. These are the words that best define my work. Translating texts, elaborating catalogs, writing codes for website, all this implies translation – of a need, a request or even a desire – and the creation of a result, whatever the format. And all this contributes to communication between people. That is where is my activity and what drives me.",
+        "intro": "<b>Translator</b>. <b>Creator</b>. <b>Communicating</b>. These are the words that best define my work. <b>Translating texts</b>, <b>elaborating catalogs</b>, <b>writing codes</b> for website, all this implies <b>translation – of a need, a request or even a desire –</b> and the <b>creation of a result</b>. And all this contributes to <b>communication between people</b>. That is <b>where is my activity</b> and <b>what drives me</b>.",
         "pdf": "Click to download my resume as a PDF file",
         "pdflink": "CV_EN",
         "linkedin": "My profile on Linkedin",
@@ -20,9 +20,9 @@
     "skills": {
         "title": "Skills",
         "skills": [
-            "Translation, creation, communication",
-            "Adobe InDesign & Photoshop, Microsoft Office",
-            "English professional | Portuguese bilingual",
+            "<b>Translation</b>, <b>creation</b>, <b>communication</b>",
+            "Adobe <b>InDesign</b> & <b>Photoshop</b>, Microsoft <b>Office</b>",
+            "<b>English</b> professional | <b>Portuguese</b> bilingual",
             "Autonomous, organized, self-made, flexible"
         ],
         "languages": "Languages",
@@ -66,7 +66,7 @@
                 "class": "osborn",
                 "company": "Osborn Unipol SAS | Industry",
                 "date": "February 2017 - Today",
-                "description": "Creation and management of product databases (MySQL). Creation of a CRM website. Operational marketing: mailing campaign, creation of brochures & catalogs.",
+                "description": "Creation and management of product databases (MySQL).<br/>Creation of a CRM website. Operational marketing: mailing campaign, creation of brochures & catalogs.",
                 "learned": "What I've learned : Indesign, VBA, PHP + MySQL + JQuery."
             },
             {
